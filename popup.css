@@ -1,0 +1,140 @@
+.form {
+    display: flex;
+}
+
+.form-img {
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+}
+
+.form-info {
+    display: grid;
+    justify-items: center;
+    margin: 15% 40px 10% 0;
+}
+
+.form-info p {
+    font-size: 24px;
+    text-align: center;
+    color: #333232;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.form-prize h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.form-prize {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.form-prize h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #333232;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.form-prize span {
+    font-size: 10px;
+    margin: 0;
+}
+
+.mautic-focus.mf-modal.mf-modal-middle {
+    padding: 0
+}
+
+#mauticform_input_cadastronewsletter_focus_submit {
+    background-color: #333232;
+    font-weight: 700;
+    font-size: 20px;
+    width: 105%;
+}
+
+.mf-modal .mauticform-input {
+    width: 105%;
+    margin-bottom: 16px;
+}
+
+#mauticform_label_cadastronewsletter_focus_nome,
+#mauticform_label_cadastronewsletter_focus_email {
+    display: none;
+}
+
+.mautic-focus.mf-modal.mf-modal-middle {
+    border: none;
+}
+
+.mf-modal {
+    position: unset
+}
+
+#mauticform_wrapper_cadastronewsletter_focus {
+    width: 100%
+}
+
+@media (max-width: 600px) {
+    #mauticform_wrapper_cadastronewsletter_focus {
+        width: 75%;
+        margin-bottom: 8px;
+    }
+
+    .form {
+        max-height: 400px
+    }
+
+    .mf-modal .mf-modal-close {
+        position: absolute;
+        top: 0;
+        right: 30px;
+    }
+
+
+    .form-img {
+        height: unset;
+        width: 60%;
+    }
+
+    .form-img img {
+        height: 100%;
+    }
+
+    .form-info {
+        margin: 20px 10px 0 0;
+    }
+
+    .form-info p {
+        font-size: 16px;
+        margin-bottom: 8px
+    }
+
+    .form-prize {
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        margin-bottom: 0;
+    }
+
+    .form-prize h1 {
+        font-size: 28px;
+        margin-bottom: 16px
+    }
+
+    .form-prize h2 {
+        font-size: 32px;
+        margin-bottom: 16px
+    }
+
+    .form-prize span {
+        font-size: 8px;
+    }
+}

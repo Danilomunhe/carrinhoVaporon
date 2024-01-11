@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="carrinho">
+        <div class="produtos">
+            <h2 class="titulos">Produtos</h2>
+            <div class="container-produto">
+                <div class="container-img">
+                    <img src="produto.webp" alt="produto1">
+                </div>
+                <div class="description-product">
+                    <div class="textos-produtos">
+                        <h3>Refil Cartucho Vaporesso Xros (1 Unidade) - 0.8 Series</h3>
+                        <p class="descircao">Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                    </div>
+                    <div class="quantidade-preco">
+                        <div class="quantide">
+                            <button class="less">-</button>
+                            <input type="number" class="quantidade-texto" placeholder="1">
+                            <button class="more">+</button>
+                        </div>
+
+                        <span class="preco">R$29,99</span>
+
+                    </div>
+                    <i class="fa-regular fa-trash-can trash"></i>
+                </div>
+            </div>
+            <div class="container-produto">
+                <div class="container-img">
+                    <img src="produto2.webp" alt="produto2">
+                </div>
+                <div class="description-product">
+                    <div class="textos-produtos">
+                        <h3>Refil Cartucho Vaporesso Xros (1 Unidade) - 0.8 Series</h3>
+                        <p class="descircao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, vel.
+                        </p>
+                    </div>
+                    <div class="quantidade-preco">
+                        <div class="quantide">
+                            <button class="less">-</button>
+                            <input type="number" class="quantidade-texto" placeholder="1">
+                            <button class="more">+</button>
+                        </div>
+
+                        <span class="preco">R$29,99</span>
+                    </div>
+                    <i class="fa-regular fa-trash-can trash"></i>
+                </div>
+            </div>
+            <div class="button-continuar-comprando">
+                <a href="#">Continuar comprando </a>
+            </div>
+        </div>
+
+        <div class="container-frete-cupom">
+            <div class="frete-prazo">
+                <h3 class="titulos">Frete e Prazo</h3>
+                <div class="cep">
+                    <input type="text" name="cep" id="cep" placeholder="Digite seu cep">
+                    <input type="button" value="Buscar" id="buscar">
+                </div>
+                <ul class="frete-options">
+                    <li class="opcao-frete">
+                        <div class="img-logo"><img src="Camada 5.png" alt=""></div>
+                        <div class="informacoes-frete">
+                            <h4 class="texto-options">Sedex</h4>
+                            <span class="texto-options">Receba em até 1 dia útil</span>
+                            <span class="texto-options">R$21,00</span>
+                        </div>
+                        <input type="radio" name="opcao-frete" id="">
+                    </li>
+                    <li class="opcao-frete">
+                        <div class="img-logo"><img src="Camada 5.png" alt=""></div>
+                        <div class="informacoes-frete">
+                            <h4 class="texto-options">PAC</h4>
+                            <span class="texto-options">Receba em até 5 dias úteis</span>
+                            <span class="texto-options">R$21,00</span>
+                        </div>
+                        <input type="radio" name="opcao-frete" id="">
+                    </li>
+                </ul>
+            </div>
+            <div class="cupom-pedido">
+                <h3 class="titulos">Tem um cupom?</h3>
+                <div class="cupom">
+                    <input type="text" name="cep" id="cupom" placeholder="Código do cupom">
+                    <input type="button" value="Aplicar" id="aplicar">
+                </div>
+                <div class="resumo-pedido">
+                    <h3 class="titulos">Resumo do Pedido</h3>
+                    <div class="detalhes-pedido">
+                        <p>Produtos (2) <span>R$52,00</span></p>
+                        <p class="frete">Frete <span>R$21,00</span></p>
+                        <p>Total <span>R$73,00</span></p>
+                    </div>
+                </div>
+            </div>
+            <a href="Continuar Comprando" class="link-compra">Continuar Comprando</a>
+            <div class="button-pedido"> <a href="#">Finalizar Pedido</a></div>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
