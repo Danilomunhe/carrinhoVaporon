@@ -10,7 +10,6 @@ let preco2 = document.getElementById("preco2");
 function adicionar(quantidadeProduto, preco) {
   let quantidade = parseInt(quantidadeProduto.value);
   let valor = parseFloat(preco.dataset.preco);
-  console.log(valor);
 
   if (isNaN(quantidade)) {
     quantidade = 0;
