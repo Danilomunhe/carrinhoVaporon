@@ -19,7 +19,7 @@ function adicionar(quantidadeProduto, preco) {
   quantidade += 1;
   let valorTotal = valor * quantidade;
   quantidadeProduto.value = quantidade;
-  preco.textContent = "R$" + valorTotal;
+  preco.textContent = "R$" + valorTotal.toFixed(2);
 }
 function remover(quantidadeProduto, preco) {
   let quantidade = parseInt(quantidadeProduto.value);
@@ -30,7 +30,7 @@ function remover(quantidadeProduto, preco) {
     quantidade -= 1;
     let valorTotal = valor * quantidade;
     quantidadeProduto.value = quantidade;
-    preco.textContent = "R$" + valorTotal;
+    preco.textContent = "R$" + valorTotal.toFixed(2);
   }
 
   quantidadeProduto.value = quantidade;
